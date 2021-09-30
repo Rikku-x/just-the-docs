@@ -8,10 +8,6 @@
   flex-wrap: wrap;
   background-color: $sidebar-color;
 
-  a {
-    color: $sidebar-link-color
-  }
-
   @include mq(md) {
     flex-wrap: nowrap;
     position: fixed;
