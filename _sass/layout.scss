@@ -8,6 +8,10 @@
   flex-wrap: wrap;
   background-color: $sidebar-color;
 
+  a {
+    color: $sidebar-link-color
+  }
+
   @include mq(md) {
     flex-wrap: nowrap;
     position: fixed;
@@ -117,7 +121,7 @@
   align-items: center;
   padding-top: $sp-3;
   padding-bottom: $sp-3;
-  color: $tier-white;
+  color: $body-heading-color;
   @include fs-6;
 
   @include mq(md) {
