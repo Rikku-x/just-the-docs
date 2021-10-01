@@ -12,13 +12,12 @@ $tier-blue-muted: #BAD8FC !default;
 $tier-blue-highlight: #66ACFF !default;
 
 
-
 .tier-theme {
     color: "blue"
 }
 
-$sidebar-color: $tier-blue;
-$nav-child-link-color: $tier-white;
-$code-background-color: $tier-whie;
-$body-heading-color: $tier-white;
+$sidebar-color: $tier-blue !default;
+$nav-child-link-color: $tier-white !default;
+$code-background-color: $tier-whie !default;
+$body-heading-color: $tier-white !default;
 
