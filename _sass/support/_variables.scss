@@ -1,18 +1,3 @@
-// TIER
-
-$tier-white: #FFFAF6 !default;
-$tier-green: #067A72 !default;
-$tier-green-muted: #C8EAE8 !default;
-$tier-green-highlight: #20E0CC !default;
-$tier-red: #F4462C !default;
-$tier-red-muted: #FFCCB4 !default;
-$tier-red-highlight: #FFAE80 !default;
-$tier-blue: #0E1A50 !default;
-$tier-blue-muted: #BAD8FC !default;
-$tier-blue-highlight: #66ACFF !default;
-
-
-
 //
 // Typography
 //
@@ -85,20 +70,20 @@ $red-100: #f96e65 !default;
 $red-200: #e94c4c !default;
 $red-300: #dd2e2e !default;
 
-$body-background-color: $tier-white !default;
-$sidebar-color: $tier-blue !default;
+$body-background-color: $white !default;
+$sidebar-color: $grey-lt-000 !default;
 $search-background-color: $white !default;
 $table-background-color: $white !default;
-$code-background-color: $tier-white !default;
+$code-background-color: $grey-lt-000 !default;
 $feedback-color: darken($sidebar-color, 3%) !default;
 
-$body-text-color: $tier-blue !default;
-$body-heading-color: $tier-white !default;
+$body-text-color: $grey-dk-100 !default;
+$body-heading-color: $grey-dk-300 !default;
 $search-result-preview-color: $grey-dk-000 !default;
-$btn-primary-color: $tier-blue-highlight !default;
+$nav-child-link-color: $grey-dk-100 !default;
+$link-color: $purple-000 !default;
+$btn-primary-color: $purple-100 !default;
 $base-button-color: #f7f7f7 !default;
-$sidebar-link-color: $tier-white !default;
-
 
 //
 // Spacing
