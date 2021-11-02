@@ -19,8 +19,9 @@
   }
 
   @include mq(lg) {
-    width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
-    min-width: $nav-width;
+    // width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+    // min-width: $nav-width;
+    min-width: 20rem;
   }
 }
 
@@ -83,6 +84,8 @@
 
 .site-nav {
   display: none;
+ 
+
 
   &.nav-open {
     display: block;
@@ -117,7 +120,7 @@
   align-items: center;
   padding-top: $sp-3;
   padding-bottom: $sp-3;
-  color: $body-heading-color;
+  color: #FFFAF6;
   @include fs-6;
 
   @include mq(md) {
